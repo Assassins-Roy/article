@@ -25,7 +25,7 @@ public static void main(String[] args) throws IOException {
 		Scanner scanner=new Scanner(System.in);
 		parms=scanner.nextLine().split(" ");
 		if(parms.length<3) {
-			System.out.println("操作错误，请正确输入参数");
+			System.out.println("没有完整输入文件的输入输出路径");
 			System.exit(0);
 		}
 		scanner.close();
